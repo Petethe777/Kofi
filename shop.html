@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-container":"#9e2a5b","on-secondary-fixed":"#251a07","on-tertiary":"#ffffff","tertiary-fixed-dim":"#acd28a","on-primary-container":"#ffbccf","surface-container-high":"#ebe8e3","error":"#ba1a1a","secondary-fixed-dim":"#d9c4a5","inverse-surface":"#31302d","surface":"#fcf9f4","on-tertiary-fixed":"#0c2000","on-secondary-container":"#726249","inverse-primary":"#ffb1c8","on-error-container":"#93000a","tertiary-fixed":"#c7efa4","surface-container-highest":"#e5e2dd","on-secondary":"#ffffff","surface-bright":"#fcf9f4","surface-container-lowest":"#ffffff","background":"#fcf9f4","tertiary":"#294810","on-background":"#1c1c19","on-primary":"#ffffff","on-surface-variant":"#564147","outline-variant":"#dcbfc6","secondary":"#6c5c44","on-error":"#ffffff","on-secondary-fixed-variant":"#53452e","primary":"#7f0d43","on-primary-fixed-variant":"#87164a","on-primary-fixed":"#3e001d","secondary-container":"#f6dfc0","on-tertiary-container":"#b3d991","on-tertiary-fixed-variant":"#304f16","surface-container":"#f0ede9","secondary-fixed":"#f6dfc0","on-surface":"#1c1c19","primary-fixed-dim":"#ffb1c8","outline":"#897177","error-container":"#ffdad6","inverse-on-surface":"#f3f0eb","surface-variant":"#e5e2dd","surface-dim":"#dcdad5","primary-fixed":"#ffd9e2","surface-container-low":"#f6f3ee","tertiary-container":"#406026","surface-tint":"#a73162"},borderRadius:{DEFAULT:"0.25rem",lg:"0.5rem",xl:"0.75rem",full:"9999px"},spacing:{gutter:"1.5rem","gutter-mobile":"1rem","space-lg":"1.5rem","margin-mobile":"1.25rem",margin:"3rem","space-xl":"2.5rem","space-xs":"0.25rem","space-md":"1rem","space-sm":"0.5rem"},fontFamily:{"display-hero-mobile":["Playfair Display"],"body-lg":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"label-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-lg-mobile":["Playfair Display"],"label-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"headline-md":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"display-hero":["Playfair Display"]},fontSize:{"display-hero-mobile":["34px",{lineHeight:"42px",letterSpacing:"-0.01em",fontWeight:"700"}],"body-lg":["18px",{lineHeight:"28px",fontWeight:"400"}],"headline-lg":["36px",{lineHeight:"44px",letterSpacing:"-0.015em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"600"}],"body-sm":["14px",{lineHeight:"20px",fontWeight:"400"}],"headline-lg-mobile":["26px",{lineHeight:"34px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.02em",fontWeight:"600"}],"body-md":["16px",{lineHeight:"24px",fontWeight:"400"}],"headline-sm":["20px",{lineHeight:"28px",fontWeight:"600"}],"headline-md":["24px",{lineHeight:"32px",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.06em",fontWeight:"700"}],"display-hero":["48px",{lineHeight:"56px",letterSpacing:"-0.02em",fontWeight:"700"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_4px_20px_rgba(74,53,37,0.06)]"><div class="h-20 max-w-7xl mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Kofi Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWtzAFQ-gwUXBNNLB4g7QgYfQZelpRWp8BtJn8DCWkS7pVQ5hLzTgIpgNanEhGomnhCE2XMnc8asrtCNCoU3ohUxHwVuyG1KIxU8KZF8cng7KtDseHnWxBMGK063lpOnUJapw64yfRxjQhtKRCJ62SNf4ZuLUNV0ffWFsWu8z6eF8tj_XbhxjaV01cj_6gV1V9bdOqIpjzGFDNXWNE6GSVkgKIFkV823oYkIJ8gaICf7oAC3tb0rq0"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold">Kofi</span></a><div class="hidden xl:flex items-center gap-2 bg-surface-container-low px-3 py-1.5 rounded-full border border-secondary-fixed/40"><span class="w-2 h-2 rounded-full bg-tertiary-container animate-pulse"></span><span class="font-label-sm text-label-sm text-tertiary font-semibold tracking-wide uppercase">Today: Wynwood Walls 8am-2pm</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-semibold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="menu-shop" href="#">Menu &amp; Shop</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="our-story" href="#">Our Story</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="find-our-cart-schedule" href="#">Find Our Cart &amp; Schedule</a></nav><div class="flex items-center gap-space-sm sm:gap-space-md"><button aria-label="Search drinks and beans" class="p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-full transition-colors flex items-center justify-center" type="button"><span class="material-symbols-outlined text-[22px]">search</span></button><a class="inline-flex items-center gap-2 bg-primary-container hover:bg-primary text-on-primary font-label-lg text-label-lg px-4 py-2 rounded-full transition-all shadow-[0_4px_12px_rgba(74,53,37,0.12)] active:scale-95" data-path="cart-checkout" href="#"><span class="material-symbols-outlined text-[20px]">local_mall</span><span class="hidden sm:inline">Cart</span><span class="bg-surface-container-lowest text-primary text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">3</span></a><div class="pl-1 border-l border-outline-variant/30"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-secondary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFjqziB_bkt0P0QXSYVs_j9P0xAvf-3lqqD1QZTGVZmtK8x1ke2KwXMlc7izNJufr-TEBNp791CFssBQoOUTbsmKUQYv57amxRCgHwJ5DKQ-auNMCqmdPjzVa_cgEPV6qyInx2lh2e6B4aEnM2_wmupdgmKntV1J_nY3gBUDAanywx6yAqXSVaCTD3KoezNFtHNo2xq5H74Ukalz4I3eW11wUXSsYsKzNR2P8biLHbpjeGGjX1aOcj"/></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle ambient decorative glow elements contained within parents -->
+<section class="relative w-full overflow-hidden bg-surface-container-low py-space-xl">
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-primary-fixed/30 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 bottom-0 w-80 h-80 rounded-full bg-secondary-fixed/50 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-gutter relative z-10">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="max-w-2xl flex flex-col gap-space-sm">
+<div class="inline-flex items-center gap-2 self-start bg-surface px-3 py-1 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider">Live Barista Service • Wynwood Cart Station</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            Our Artisanal Menu &amp; Packaged Goods
+          </h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl leading-relaxed">
+            Handcrafted drinks made live at our mobile cart, plus ceremonial tins and signature bottled botanical syrups to recreate the Kofi daily ritual anywhere.
+          </p>
+</div>
+<!-- Live Cart Tracker Mini-Widget -->
+<div class="bg-surface rounded-2xl p-space-md shadow-sm max-w-md w-full flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-xl bg-secondary-container text-on-secondary-container flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">storefront</span>
+</div>
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Today's Stop</p>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Wynwood Walls</h2>
+<p class="font-body-sm text-body-sm text-tertiary font-medium">Open until 2:00 PM • Fast Line Active</p>
+</div>
+</div>
+<a class="p-2.5 rounded-full bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary transition-all flex items-center justify-center" href="#" title="Cart Details">
+<span class="material-symbols-outlined text-[20px]">near_me</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Controls: Filter Pills & Search / Sorting Shelf -->
+<section class="sticky top-20 z-40 bg-surface/95 backdrop-blur-md py-4 shadow-sm">
+<div class="max-w-7xl mx-auto px-gutter flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<!-- Horizontal Scrollable Category Filter Pills -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 md:pb-0 no-scrollbar" id="categoryFilterContainer">
+<button class="category-btn active px-4 py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-primary-container text-on-primary shadow-sm hover:scale-[1.02]" data-filter="all" type="button">
+          All Items (14)
+        </button>
+<button class="category-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container text-secondary hover:bg-surface-container-high" data-filter="flavored-matcha" type="button">
+          Flavored Matcha Creations (6)
+        </button>
+<button class="category-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container text-secondary hover:bg-surface-container-high" data-filter="classic-matcha" type="button">
+          Classic Ceremonial (3)
+        </button>
+<button class="category-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container text-secondary hover:bg-surface-container-high" data-filter="artisanal-coffee" type="button">
+          Artisanal Coffee &amp; Lattes (4)
+        </button>
+<button class="category-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container text-secondary hover:bg-surface-container-high" data-filter="pantry" type="button">
+          Take-Home Pantry &amp; Tins (3)
+        </button>
+<button class="category-btn px-4 py-2 rounded-full font-label-md text-label-md transition-all whitespace-nowrap bg-surface-container text-secondary hover:bg-surface-container-high" data-filter="pastries" type="button">
+          Pastries &amp; Bites (4)
+        </button>
+</div>
+<!-- Search & Sort Controls -->
+<div class="flex items-center gap-space-sm flex-shrink-0">
+<div class="relative w-48 sm:w-60">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span>
+<input class="w-full bg-surface-container-lowest rounded-full pl-9 pr-3 py-1.5 font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:ring-2 focus:ring-primary-container shadow-sm" id="menuSearchInput" placeholder="Search craft drinks..." type="text"/>
+</div>
+<div class="relative">
+<select class="bg-surface-container-lowest text-on-surface font-label-sm text-label-sm py-2 pl-3 pr-8 rounded-full shadow-sm appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary-container" id="sortDropdown">
+<option value="featured">Featured First</option>
+<option value="price-asc">Price: Low to High</option>
+<option value="price-desc">Price: High to Low</option>
+<option value="caffeine">Caffeine Level</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-1/2 -translate-y-1/2 text-on-surface-variant text-[16px] pointer-events-none">expand_more</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Layout: Product Grid + Sticky Cart Sidebar -->
+<section class="max-w-7xl mx-auto px-gutter py-space-lg w-full">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Catalog Grid: 8 Columns on Large -->
+<div class="lg:col-span-8 flex flex-col gap-space-lg">
+<!-- Seasonal Highlight Notice Banner -->
+<div class="bg-surface-container rounded-2xl p-space-md flex items-center justify-between gap-space-md shadow-sm">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[28px]">local_cafe</span>
+<div>
+<p class="font-headline-sm text-headline-sm text-on-surface">Fresh Florida Strawberry &amp; Yuzu Drops</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cold-pressed fruit syrups prepared fresh every morning in small 30-batch runs.</p>
+</div>
+</div>
+<span class="hidden sm:inline-block bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-wider font-semibold">Today Only</span>
+</div>
+<!-- Product Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md" id="productGrid">
+<!-- Product 1: Strawberry Rose Cloud Matcha -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="medium" data-category="flavored-matcha" data-price="7.50">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Aesthetic tall fluted glassware containing iced layered ceremonial vibrant emerald green matcha latte over creamy white oat milk with soft pink strawberry rose foam cloud on top, condensation on glass, warm morning sunlight, marble cafe tabletop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkIx3xgxs5fYwmpZNVWpPQdxLGTcs0TADE79uD-UPiZMQBTOt3UwlHu8_GutBWPZAmUMP3SBVfjV64EKeW6GOy3ZWXi_W76sNIFeNAo-h7AMbOaohcK0-g-g_DVipQLSZE-XtNptX2q7X5iNeZXCd5IZkMQlp5xRUZFvDIFQxNhPVeCY9LtogCIG5UJodHkjgByhgR8Uk_axVj8-9fe6StEhkvi99n_PgEr3OGZzffe9gBvJZECYDr"/>
+<span class="absolute top-3 left-3 bg-primary-container text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold shadow-sm">Crowd Favorite</span>
+<span class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-sm text-tertiary font-label-sm text-label-sm px-2 py-0.5 rounded-full font-semibold">Ceremonial Uji</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Strawberry Rose Cloud Matcha</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$7.50</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Vegan</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Organic</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Gluten-Free</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Sweet wild Florida strawberry, organic damask rose water, velvety cold foam, and stone-ground Tencha.
+              </p>
+</div>
+<!-- Quick Customizer Preview & Add Button -->
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Default: <span class="text-on-surface font-semibold">Oat Milk • 50%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Strawberry Rose Cloud Matcha', 7.50)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 2: Mango Cardamom Sunshine Matcha -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="medium" data-category="flavored-matcha" data-price="7.50">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Layered bright yellow ripe mango purée at base of clear cup with iced milk layer and deep green matcha float, topped with cardamom dust, warm tropical lighting, terracotta backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAm7QeFlYTFC7pJoBP3d0S2CNBF_bbPLM-6RPi6Ms303NDl61hdVbco--451yxRxNpclQ4MzPXZ13TGmJbNOP2h4-X2iUIxdSGoSWuLAvK-74WvtY55JES_MHX01FOYzWDMvQIy39lcqRCu8X9Rg3_OTpX535K3G4rziSuOyi_fMj5ccmv59uMEPWmg9i34aWeNCNDQLD8SeDztSUaL_ESkLvrIm9IGyuB1Xmmzjd29j75D9sgEH58G"/>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold">Summer Seasonal</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Mango Cardamom Sunshine Matcha</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$7.50</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Vegan</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">House Compote</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Crushed ripe South Florida mangoes, subtle cracked green cardamom aroma, silky oat emulsion, vibrant tea float.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Default: <span class="text-on-surface font-semibold">Oat Milk • 25%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Mango Cardamom Sunshine Matcha', 7.50)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 3: Salted Vanilla Coconut Foam Matcha -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="medium" data-category="flavored-matcha" data-price="7.75">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Chilled ceramic tumbler with rich dark green whisked ceremonial matcha, topped with dense salted coconut cold foam and toasted golden coconut chips, warm golden hour sun" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACcH4wQRkRI3aoiPre5qoYdaGYa2xVgmkgy-QBX1eIrfKg3Bti6eBvc9rQ9UCUI6p2GPZ40Stc_llYv0J94HHj0icDDmj5WeVm4IJh7ARhsIdJCvz55xTUIgcHrn_y2bEcVmy1-bPAawFWQByZARb42Sop4ccJU6N1LVlIvrgztpJEn4FgDdEiwAiZPpYGz1GUpdrOyNGTtE1w3DIogjmH3mtjXY02oXUnNpKb72RXa2zOf_1hV8FP"/>
+<span class="absolute top-3 left-3 bg-surface-container-high text-secondary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold">Barista Pick</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Salted Vanilla Coconut Foam Matcha</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$7.75</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Dairy-Free</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Organic</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                House-toasted organic coconut flakes, crunchy Maldon sea salt rim, real Madagascar bourbon vanilla bean.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Default: <span class="text-on-surface font-semibold">Coconut • 50%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Salted Vanilla Coconut Foam Matcha', 7.75)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 4: Blueberry Lavender Bliss Matcha -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="medium" data-category="flavored-matcha" data-price="7.50">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Iced glass cup with deep indigo purple wild blueberry layer beneath creamy oat milk and bright spring-green matcha float, garnished with fresh organic lavender sprig, bright sunlit cafe vibe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1tWZE81Feo7mBPxDitu2VE0huxaNFY2bDVXqVB0lt1ag6UjeOLhX9ZbY3o4lQpznQqblK_lTiWMBhd0DfLdqMPRcTf42SIMhycemGFJCGWD_tH1L2U4z99d-4Oi7ILCa2NAAhYzHk1kyyFaJkLbbe0wkLrW1xhqJgBNkZV4BV5fre4fXGicK9VCsAdmZnk3Q5OxqydItaput_Z_UCZKLKCt8Zhtf31pj86UXz08ioeo_2v6IYjcWv"/>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Blueberry Lavender Bliss Matcha</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$7.50</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Botanical</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Vegan</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Simmered organic wild blueberries, subtle French lavender botanical syrup, calming ceremonial grade green tea.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Default: <span class="text-on-surface font-semibold">Almond Milk • 25%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Blueberry Lavender Bliss Matcha', 7.50)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 5: White Chocolate Pistachio Matcha -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="medium" data-category="flavored-matcha" data-price="8.00">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Gourmet iced drink with crushed green pistachio rim, swirl of white chocolate along the interior glass, ceremonial matcha, garnished with roasted pistachio dust, editorial lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmhMwAlQ64AS4PkXK0KlqhvEzjTrq90ieJEBa_0d4UCcK9Xy8xxhw6boS83ZpC4YKLEPpEcbkUFH5hdabMpzp_EXekemxwio_k2SNkFg7O6j_oVK1Sq-rtEobeTggkB1PpqmZyFG3PpXXI9LL0neddcqB4mcgg1pW-QwhGFszwqtbXNfNLakeF5jCrPlOVCpKEcxXlZfbLr4TOb4Hu5xsRhQTtg_UsBih05Xl5qxlRWIKome_Bzc8i"/>
+<span class="absolute top-3 left-3 bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold">Decadent</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">White Chocolate Pistachio Matcha</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$8.00</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Artisanal</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Real Nut Crema</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Sicilian roasted pistachio crema, melted Belgian white chocolate drizzle, enriched with house oat milk.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Default: <span class="text-on-surface font-semibold">Pistachio Milk • 50%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('White Chocolate Pistachio Matcha', 8.00)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 6: Spiced Yuzu Honey Mint Matcha -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="medium" data-category="flavored-matcha" data-price="7.25">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Sparkling iced matcha tonic beverage in tall glass with floating dehydrated yuzu wheel, fresh mint bouquet, crystalline ice cubes, bright crisp daylight, minimalist cafe terrace" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_YgouILMGNKa93qCkNZz_IgGDC77IK4x4_yXHvWf8Von1vHXMYn9hf3d0D9xPulwE7pegwCjoXSEq7Qg3IDPTwOUwFR-F-GAUAsHRTU_SYMyvQZUHako_Plh_Nate0sQi01xEW5x08ktKxCK18jWaQOnWi6k8VgXlUHih5eNQ9IY3duyVIHdBjtd2AtHD4tUXAPrj_BsdQcybbMl5lxkTiUWxCbaSvwvvmWW5pnc9TWvwKo1wkKkj"/>
+<span class="absolute top-3 left-3 bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold">Ultra Crisp</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Spiced Yuzu Honey Mint Matcha</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$7.25</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Refreshing</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Raw Honey</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Tart Japanese yuzu citrus infusion, local wildflower honey, muddled Florida spearmint, sparkling spring water.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Default: <span class="text-on-surface font-semibold">Tonic Splash • 25%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Spiced Yuzu Honey Mint Matcha', 7.25)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 7: Traditional Uji Ceremonial Matcha -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="high" data-category="classic-matcha" data-price="6.25">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Traditional handmade Japanese dark ceramic chawan bowl filled with frothy bright neon-green whisked ceremonial matcha, bamboo chasen whisk resting beside it, soft neutral tatami aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuaBRmi67m5GApHtcI30hB4o-FEjI4Rlcsv1l1VBhqMUEduBDbLKYyoCT0Hg9i7nIhjtcab490Glc0q8fdX4fVXHdHlDUr2kNsaHCAk7QePCiun9Fjv3A_40vdRyCTgchk_DZkl7c0PybRCTs6FW7WsyHCv5wgFMWwb3r887amsxZKuNAO_IAW1YsGIQXK8zfhCtjlTw_b6Mz3hYK21OWKcD2WMebuzr1Y8f_10nqXZkzi-_OpkMvD"/>
+<span class="absolute top-3 left-3 bg-tertiary text-on-tertiary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold">Single Origin</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Traditional Uji Ceremonial Matcha</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$6.25</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Kyoto Cultivar</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Sugar-Free</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                First-harvest Tencha stone-ground in Kyoto. Umami rich, bright emerald foam, zero bitterness. Whisked hot or over artisan ice cubes.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Served: <span class="text-on-surface font-semibold">Pure Water Ritual • 0%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Traditional Uji Ceremonial Matcha', 6.25)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 8: Kyoto Hojicha Roasted Tea Latte -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="low" data-category="classic-matcha" data-price="6.50">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Creamy warm beige iced latte made with roasted Hojicha tea powder, served in ridged glass with dark roasted tea foam on top, warm cozy cafe atmosphere with wooden tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoYMSycOFdq0D2KMePI09ehF_PBl5Ft5mlSqpOImPGHDzzCVDrWloULU3b3a732Ia7g7ds119xXX7-yWSLXsxW-VM5hLTHY2hwRGNEuhSVGygDRAOTq0LoQWJt36F_lHa4wMW-LUKAu1rHjE6Za1sUvUFSgaxriof19zrK7UboDDP0kSHRKiufpVBjumJCZFt3b2VFopSti0nDHMcutN6sByLb4G9WN0oZOQkmjj0y-IR32cTDORR9"/>
+<span class="absolute top-3 left-3 bg-secondary-fixed-dim text-on-secondary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold">Low Caffeine</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Kyoto Hojicha Roasted Tea Latte</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$6.50</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Toasted Notes</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Evening Friendly</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Charcoal-roasted green tea with nutty, caramel, smoky notes. Velvety steamed or iced oat milk, natural brown sugar hint.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Default: <span class="text-on-surface font-semibold">Oat Milk • 25%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Kyoto Hojicha Roasted Tea Latte', 6.50)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 9: Kofi Miami Espresso-Matcha Cafecito -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="high" data-category="artisanal-coffee" data-price="8.00">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Stunning tri-color layered drink in tall glass with green matcha, creamy condensed oat milk, and rich dark espresso crema floating on top, Miami palm shadows in background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4wVrLik-rxn3PSYy_optY0jMzPvNKD2bX5VoJEIanTv-1X-oiqi4BXTwlHqSaNgHVSlSulT4tleFm2oMPtyP_0xwDk_itiNpIu2oOcrvx4BJbrszXoZ2iVxCkJfSNuAJdyM6subpQIDT6HQJdXMR-TbQW2e2u3CFfeImOqoauSCqtyBMM0YbNUroxuEKBhXPDSXHaFvWP-WpqJeptzxGLiD0iTBCwxLriinOF2Hu9pXInHQsKZA_n"/>
+<span class="absolute top-3 left-3 bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold">Cart Signature</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Kofi Miami Espresso-Matcha Cafecito</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$8.00</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">High Voltage</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Miami Fusion</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Double shot single-origin Colombian espresso poured over stone-ground ceremonial matcha and whipped condensed oat crema.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Default: <span class="text-on-surface font-semibold">Condensed Oat • 50%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Kofi Miami Espresso-Matcha Cafecito', 8.00)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 10: Spanish Saffron Oat Latte -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="medium" data-category="artisanal-coffee" data-price="7.00">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal latte with silky micro-foam adorned with subtle crimson saffron threads and gentle cinnamon dusting in handmade beige ceramic mug, sunlit wooden table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6xpmeK_Z6TG-y9WL0UuyFW9F9hXlTramh8QUCt7h2E6o_5MgVPC-mlYeEV_KnPw6bPyi1Gk7GONN5eAnb-kkXYqWQzDjSbuVXK4AUFJdOG9d8ELpSTmzIdlpeiz5nQk0xs9bfh1lzDWQJ5mxw53RBlyitXYaNecB45dzje10nj1P7SkPso-llZiCcliFKclhqYmYYbeYY6W7EWXEZcFJJMjuRO0F-GKCop8Z4Sxp5EYEiLG14Dpvz"/>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Spanish Saffron Oat Latte</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$7.00</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Single Origin</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Artisan Roast</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Freshly extracted espresso, ethically sourced Spanish saffron threads, Ceylon cinnamon, and steamed organic oat milk.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Default: <span class="text-on-surface font-semibold">Oat Milk • 25%</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Spanish Saffron Oat Latte', 7.00)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 11: Uji First-Harvest Ceremonial Tin (30g) -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="high" data-category="pantry" data-price="34.00">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Minimalist matte forest green and cream metal airtight tin with Japanese gold foil lettering for ceremonial matcha tea, seated on clean textured stone pedestal with scattered green powder" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRgdT6_4FVtHoNh61GmNjBUTRfBa_U8GPEalmVZi-FWKF_b6n42diVcjy2rN-LYYTgIQgshHSiZOZswKW6RNpdNk3FzNycGZYMLxiXeYHYUB6eGBjuKgP9iE55FWjNlAyHUcv1TvntluqBon1je7g-xoFIxNg-tFX5r1hqTl6_jOOtah-Dm4qeKYZUx0_P5c6T_LK8nieNNi2gkEFZZoOFE_T3BCw8kPHCjVdn6WdgEQYoc5Y5xCVM"/>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold">Direct Import</span>
+<span class="absolute bottom-3 right-3 bg-surface/90 backdrop-blur-sm text-tertiary font-label-sm text-label-sm px-2 py-0.5 rounded-full font-semibold">Ships US-Wide</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Uji First-Harvest Ceremonial Tin (30g)</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$34.00</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Wazuka, Kyoto</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Airtight Tin</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Shaded for 24 days prior to harvest. Stone-milled slowly to protect flavor. Makes approximately 15-20 ceremonial bowls.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Format: <span class="text-on-surface font-semibold">Hermetic Sealed Tin</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Uji First-Harvest Ceremonial Tin', 34.00)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+<!-- Product 12: House-Crafted Strawberry Rose Syrup Bottle (250ml) -->
+<article class="product-card group bg-surface-container-lowest rounded-3xl p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between" data-caffeine="none" data-category="pantry" data-price="16.00">
+<div>
+<div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Artisanal amber glass apothecary bottle filled with vibrant crimson strawberry rose syrup, custom letterpress paper label with Kofi logo, botanical dried rose buds beside bottle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgFkr44ykIyN0ESg3DnVcolIidg_EY4pEvcU7eK8OPCdh9Xxf50_sHtxhD7dXHQm7rCi_24TatZgVdi5_HgkKXQYRrbGVBE07D2gDOs0H9gCh-aRij-e4ZYHukpi27VuGjD2fPB9sT6pNTNHhpqY3OitvUI0Xl9dntUye2GvFc3UTPlju7AldwVFpqD_U2GRuhqb8DWJgxLTGp5ZZ_34wHFBq4N8k87ms-uvQFdAXs0--32oH0dWoD"/>
+<span class="absolute top-3 left-3 bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-2.5 py-1 rounded-full uppercase tracking-wider font-semibold">Small Batch</span>
+</div>
+<div class="pt-4 flex items-start justify-between gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Strawberry Rose Syrup Bottle (250ml)</h3>
+<span class="font-label-lg text-label-lg text-primary font-bold whitespace-nowrap">$16.00</span>
+</div>
+<div class="flex items-center gap-1.5 py-2">
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">Cold-Simmered</span>
+<span class="bg-surface-container text-secondary font-label-sm text-label-sm px-2 py-0.5 rounded-md">All Natural</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+                Slow-simmered organic cane sugar, fresh berries, and organic rose petals. Recreate our signature cloud drinks at home.
+              </p>
+</div>
+<div class="pt-4 mt-3 flex items-center justify-between gap-2">
+<div class="text-on-surface-variant font-label-sm text-label-sm">
+                Format: <span class="text-on-surface font-semibold">Amber Glass 250ml</span>
+</div>
+<button class="inline-flex items-center gap-1.5 bg-primary-container hover:bg-primary text-on-primary font-label-sm text-label-sm px-4 py-2 rounded-full transition-transform active:scale-95 shadow-sm" onclick="addToQuickCart('Strawberry Rose Syrup Bottle', 16.00)" type="button">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>Add to Order</span>
+</button>
+</div>
+</article>
+</div>
+<!-- Custom Ritual Crafting Banner -->
+<div class="mt-space-md bg-surface-container rounded-3xl p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-lg shadow-sm">
+<div class="flex flex-col gap-2 max-w-md">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-bold">Kofi Bespoke Ritual</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Book the Cart for Private Gatherings</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              From waterfront weddings to design gallery launches, our restored vintage mobile bar brings ceremony-grade drinks straight to your guests.
+            </p>
+</div>
+<button class="whitespace-nowrap px-6 py-3 rounded-full bg-secondary text-on-secondary hover:bg-on-secondary-fixed transition-colors font-label-lg text-label-lg shadow-sm" type="button">
+            Inquire Catering Date
+          </button>
+</div>
+</div>
+<!-- Sticky Sidebar: Live Order Quick-Peek & Customizer Info -->
+<aside class="lg:col-span-4 sticky top-36 flex flex-col gap-space-md">
+<!-- Cart Card -->
+<div class="bg-surface-container-lowest rounded-3xl p-space-md shadow-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">shopping_bag</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Your Cart</h3>
+</div>
+<span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-2.5 py-0.5 rounded-full font-bold" id="cartCountBadge">2 items</span>
+</div>
+<!-- Pickup / Shipping Mode Selector -->
+<div class="bg-surface-container-low p-1 rounded-2xl flex items-center">
+<button class="flex-1 py-1.5 px-3 rounded-xl font-label-sm text-label-sm transition-all bg-surface-container-lowest text-on-surface shadow-sm font-semibold" id="modePickup" onclick="setFulfillmentMode('pickup')" type="button">
+              Cart Pickup
+            </button>
+<button class="flex-1 py-1.5 px-3 rounded-xl font-label-sm text-label-sm transition-all text-on-surface-variant hover:text-on-surface" id="modeShipping" onclick="setFulfillmentMode('shipping')" type="button">
+              Direct Ship
+            </button>
+</div>
+<!-- Current Location context note -->
+<div class="bg-secondary-container/40 p-3 rounded-2xl flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">pin_drop</span>
+<div class="flex-1">
+<p class="font-label-sm text-label-sm font-bold text-on-secondary-container">Pickup at Today's Cart</p>
+<p class="font-body-sm text-body-sm text-on-secondary-variant leading-snug">Wynwood Walls • Estimated wait: 4 mins</p>
+</div>
+</div>
+<!-- Cart Item List -->
+<div class="flex flex-col gap-3 divide-y-0" id="cartItemList">
+<!-- Item 1 -->
+<div class="bg-surface-container-low/60 rounded-2xl p-3 flex items-center justify-between gap-3">
+<div class="flex-1 min-w-0">
+<h4 class="font-label-lg text-label-lg text-on-surface truncate">Strawberry Rose Cloud Matcha</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">Oat Milk • 50% Sweet • Iced</p>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-label-md text-label-md text-primary font-bold">$7.50</span>
+<span class="text-xs text-tertiary bg-tertiary-fixed/30 px-1.5 py-0.2 rounded font-semibold">Seaweed Cup</span>
+</div>
+</div>
+<div class="flex items-center gap-1.5 bg-surface-container-lowest rounded-full p-1 shadow-sm">
+<button class="w-6 h-6 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container" onclick="updateItemQuantity(0, -1)" type="button">-</button>
+<span class="text-xs font-bold px-1">1</span>
+<button class="w-6 h-6 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container" onclick="updateItemQuantity(0, 1)" type="button">+</button>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-low/60 rounded-2xl p-3 flex items-center justify-between gap-3">
+<div class="flex-1 min-w-0">
+<h4 class="font-label-lg text-label-lg text-on-surface truncate">Uji First-Harvest Ceremonial Tin</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant text-xs">30g Sealed Canister</p>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-label-md text-label-md text-primary font-bold">$34.00</span>
+</div>
+</div>
+<div class="flex items-center gap-1.5 bg-surface-container-lowest rounded-full p-1 shadow-sm">
+<button class="w-6 h-6 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container" onclick="updateItemQuantity(1, -1)" type="button">-</button>
+<span class="text-xs font-bold px-1">1</span>
+<button class="w-6 h-6 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container" onclick="updateItemQuantity(1, 1)" type="button">+</button>
+</div>
+</div>
+</div>
+<!-- Price Calculation -->
+<div class="flex flex-col gap-1.5 pt-2">
+<div class="flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Subtotal</span>
+<span class="text-on-surface font-medium" id="cartSubtotal">$41.50</span>
+</div>
+<div class="flex items-center justify-between font-body-sm text-body-sm text-on-surface-variant">
+<span>Local Cart Tax</span>
+<span>$2.90</span>
+</div>
+<div class="flex items-center justify-between font-headline-sm text-headline-sm text-on-surface pt-2">
+<span>Total</span>
+<span class="text-primary font-bold" id="cartGrandTotal">$44.40</span>
+</div>
+</div>
+<!-- Action Button -->
+<a class="w-full text-center py-3.5 rounded-full bg-primary-container text-on-primary hover:bg-primary font-label-lg text-label-lg font-bold shadow-md transition-all active:scale-[0.98] flex items-center justify-center gap-2" href="#">
+<span>Proceed to Quick Checkout</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<p class="text-center font-label-sm text-label-sm text-on-surface-variant/70 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-tertiary">verified_user</span>
+            Apple Pay &amp; Google Pay accepted at cart window
+          </p>
+</div>
+<!-- Customizer Mini-Guide Card -->
+<div class="bg-surface-container rounded-3xl p-space-md shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">tune</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Milk &amp; Sweetness Guide</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            All drinks are fully customizable at pickup. Choose between our house-made almond, organic oatly, or cold-pressed pistachio milk with custom organic agave ratios.
+          </p>
+<div class="grid grid-cols-2 gap-2 pt-1 font-label-sm text-label-sm">
+<div class="bg-surface-container-lowest p-2 rounded-xl text-center text-on-surface">
+<span class="font-bold block text-primary">Sweetness</span>
+              0% • 25% • 50% • 100%
+            </div>
+<div class="bg-surface-container-lowest p-2 rounded-xl text-center text-on-surface">
+<span class="font-bold block text-primary">Plant Milks</span>
+              Oat • Pistachio • Almond
+            </div>
+</div>
+</div>
+</aside>
+</div>
+</section>
+<!-- Live Location & Cart Radar Interactive Bar -->
+<section class="max-w-7xl mx-auto px-gutter pb-space-xl pt-space-lg w-full">
+<div class="bg-surface-container-lowest rounded-3xl p-space-lg shadow-sm flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex items-start gap-4">
+<div class="w-14 h-14 rounded-2xl bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[32px]">schedule</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-wider font-bold">Pop-Up Status</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Tomorrow's Cart Stop: South Beach Boardwalk</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xl">
+            Arriving 7:30 AM at 10th &amp; Ocean Drive. Pre-orders placed today receive priority pickup queue tokens automatically.
+          </p>
+</div>
+</div>
+<div class="flex items-center gap-3 w-full md:w-auto">
+<button class="w-full md:w-auto px-6 py-3 rounded-full bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md font-semibold" type="button">
+          Full Weekly Schedule
+        </button>
+</div>
+</div>
+</section>
+<!-- Micro-interactions & Filtering Script -->
+<script>
+    // Category Filtering Logic
+    const filterButtons = document.querySelectorAll('.category-btn');
+    const productCards = document.querySelectorAll('.product-card');
+    const searchInput = document.getElementById('menuSearchInput');
+    const sortDropdown = document.getElementById('sortDropdown');
+    const productGrid = document.getElementById('productGrid');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary-container', 'text-on-primary', 'shadow-sm');
+          b.classList.add('bg-surface-container', 'text-secondary');
+        });
+        btn.classList.add('bg-primary-container', 'text-on-primary', 'shadow-sm');
+        btn.classList.remove('bg-surface-container', 'text-secondary');
+
+        const filter = btn.getAttribute('data-filter');
+        applyFilters(filter, searchInput.value.toLowerCase());
+      });
+    });
+
+    searchInput.addEventListener('input', (e) => {
+      const activeBtn = document.querySelector('.category-btn.bg-primary-container');
+      const activeFilter = activeBtn ? activeBtn.getAttribute('data-filter') : 'all';
+      applyFilters(activeFilter, e.target.value.toLowerCase());
+    });
+
+    function applyFilters(category, query) {
+      productCards.forEach(card => {
+        const itemCat = card.getAttribute('data-category');
+        const title = card.querySelector('h3').textContent.toLowerCase();
+        const desc = card.querySelector('p').textContent.toLowerCase();
+
+        const matchesCat = (category === 'all' || itemCat === category);
+        const matchesQuery = !query || title.includes(query) || desc.includes(query);
+
+        if (matchesCat && matchesQuery) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // Sort Dropdown Logic
+    sortDropdown.addEventListener('change', (e) => {
+      const mode = e.target.value;
+      const cardsArray = Array.from(productCards);
+
+      if (mode === 'price-asc') {
+        cardsArray.sort((a, b) => parseFloat(a.getAttribute('data-price')) - parseFloat(b.getAttribute('data-price')));
+      } else if (mode === 'price-desc') {
+        cardsArray.sort((a, b) => parseFloat(b.getAttribute('data-price')) - parseFloat(a.getAttribute('data-price')));
+      }
+      cardsArray.forEach(card => productGrid.appendChild(card));
+    });
+
+    // Fulfillment Mode Toggle
+    function setFulfillmentMode(mode) {
+      const pickupBtn = document.getElementById('modePickup');
+      const shippingBtn = document.getElementById('modeShipping');
+
+      if (mode === 'pickup') {
+        pickupBtn.className = "flex-1 py-1.5 px-3 rounded-xl font-label-sm text-label-sm transition-all bg-surface-container-lowest text-on-surface shadow-sm font-semibold";
+        shippingBtn.className = "flex-1 py-1.5 px-3 rounded-xl font-label-sm text-label-sm transition-all text-on-surface-variant hover:text-on-surface";
+      } else {
+        shippingBtn.className = "flex-1 py-1.5 px-3 rounded-xl font-label-sm text-label-sm transition-all bg-surface-container-lowest text-on-surface shadow-sm font-semibold";
+        pickupBtn.className = "flex-1 py-1.5 px-3 rounded-xl font-label-sm text-label-sm transition-all text-on-surface-variant hover:text-on-surface";
+      }
+    }
+
+    // Quick Add to Order Toast & Counter feedback
+    function addToQuickCart(itemName, price) {
+      const badge = document.getElementById('cartCountBadge');
+      let currentCount = parseInt(badge.textContent) || 2;
+      badge.textContent = `${currentCount + 1} items`;
+      badge.classList.add('scale-110');
+      setTimeout(() => badge.classList.remove('scale-110'), 300);
+    }
+
+    function updateItemQuantity(index, change) {
+      // Micro interaction visual demo
+      const badge = document.getElementById('cartCountBadge');
+      let currentCount = parseInt(badge.textContent) || 2;
+      let newCount = Math.max(1, currentCount + change);
+      badge.textContent = `${newCount} items`;
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low border-t border-secondary-fixed/40"><div class="max-w-7xl mx-auto px-gutter py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Kofi Brand Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWtzAFQ-gwUXBNNLB4g7QgYfQZelpRWp8BtJn8DCWkS7pVQ5hLzTgIpgNanEhGomnhCE2XMnc8asrtCNCoU3ohUxHwVuyG1KIxU8KZF8cng7KtDseHnWxBMGK063lpOnUJapw64yfRxjQhtKRCJ62SNf4ZuLUNV0ffWFsWu8z6eF8tj_XbhxjaV01cj_6gV1V9bdOqIpjzGFDNXWNE6GSVkgKIFkV823oYkIJ8gaICf7oAC3tb0rq0"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold">Kofi Mobile Cafe</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed max-w-sm">Handcrafted ceremonial Uji matcha, sun-drenched cold brew, and coastal botanical lattes delivered fresh from our restored artisanal cart across Miami, Florida.</p><div class="flex flex-col gap-2 pt-2"><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Weekly Drop Radar</span><form class="flex items-center gap-2 max-w-sm"><input class="w-full bg-surface-container-lowest border border-outline-variant rounded-full px-4 py-2 font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant/60 focus:outline-none focus:border-primary-container" placeholder="Your email for secret pop-ups" type="email"/><button class="bg-primary-container text-on-primary px-4 py-2 rounded-full font-label-md text-label-md font-semibold hover:bg-primary transition-colors flex-shrink-0" type="submit">Join</button></form></div></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">Schedule &amp; Hubs</span><ul class="flex flex-col gap-3 font-body-sm text-body-sm text-on-surface-variant pt-2"><li><strong class="text-on-surface font-semibold">Wynwood Arts District:</strong><br/>Tue - Fri · 8:00 AM – 2:00 PM</li><li><strong class="text-on-surface font-semibold">South Beach Boardwalk:</strong><br/>Sat · 7:30 AM – 1:30 PM</li><li><strong class="text-on-surface font-semibold">Coconut Grove Farmers Mkt:</strong><br/>Sun · 9:00 AM – 3:00 PM</li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">Explore</span><nav class="flex flex-col gap-2 font-body-sm text-body-sm text-on-surface-variant pt-2"><a class="hover:text-primary transition-colors" data-path="menu-shop" href="#">Bottled Reserve</a><a class="hover:text-primary transition-colors" data-path="menu-shop" href="#">Ceremonial Matcha</a><a class="hover:text-primary transition-colors" data-path="private-catering" href="#">Private Events &amp; Weddings</a><a class="hover:text-primary transition-colors" data-path="sustainability-pledge" href="#">Compostable Ritual</a></nav></div><div class="lg:col-span-3 flex flex-col gap-space-md"><div class="bg-surface-container rounded-2xl p-4 border border-outline-variant/40"><div class="flex items-center gap-2 text-tertiary mb-1"><span class="material-symbols-outlined text-[18px]">eco</span><span class="font-label-sm text-label-sm uppercase tracking-wide font-bold">100% Zero Single-Use Plastic</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Every cup, lid, and matcha straw is crafted from seaweed and plant fibers, certified 100% marine-degradable.</p></div><div class="flex items-center gap-space-md pt-1"><a aria-label="Kofi on Instagram" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-highest transition-all" href="#"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a aria-label="Kofi on TikTok" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-highest transition-all" href="#"><span class="material-symbols-outlined text-[20px]">music_note</span></a><a aria-label="Contact Cart Direct" class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-highest transition-all" href="#"><span class="material-symbols-outlined text-[20px]">near_me</span></a></div></div></div><div class="mt-space-xl pt-6 border-t border-outline-variant/40 flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-surface-variant"><span>© 2025 Kofi Specialty Coffee &amp; Matcha Co. Handcrafted in Miami, FL.</span><div class="flex items-center gap-6 font-label-sm text-label-sm"><a class="hover:text-primary transition-colors" data-path="sustainability-pledge" href="#">Pledge</a><a class="hover:text-primary transition-colors" data-path="privacy-terms" href="#">Privacy &amp; Terms</a></div></div></div></footer></body></html>
